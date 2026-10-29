@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "main.c",
+                "-o",
+                "hello"
+            ]
+        },
+        {
+            "label": "copy",
+            "type": "shell",
+            "command": "scp hello debian@192.168.7.2:/home/debian"
+        }
+    ]
+}
