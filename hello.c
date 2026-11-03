@@ -2,6 +2,6 @@
 
 int main(void)
 {
-    printf("Hello BeagleBone Black4!\n");
+    printf("Hello BeagleBone Black5!\n");
     return 0;
 }
